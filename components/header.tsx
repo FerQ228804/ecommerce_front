@@ -12,11 +12,11 @@ export function Header(){
 
     return (
         <header className="w-full p-4 items">
-            <div claName="container flex items-center justify-between max-w-5xl">
+            <div className="container flex items-center justify-between max-w-5xl">
                 <div className="flex md:hidden">
                     <Button
                         variant="ghost"
-                        site="icon"
+                        size="icon"
                         onClick={() => setIsMenuOpen(!isMenuOpen)}>
 
                         <Menu className="h-6 w-6" />
